@@ -350,7 +350,7 @@ footer small{
   .sec2{
     background-image: url(../images/sec22.png) , url(../images/sec21.png) , url(../images/bg2.png);
     background-position: top 37px center , top center , top 75px center  !important;
-    background-size: 495px 253px , 500px 221px , auto 87vh  !important;
+    background-size: 120% 253px , 120% 221px , auto 96vh  !important;
     background-repeat: no-repeat , no-repeat , no-repeat !important; 
     padding-top: 40px;
     position: relative;
@@ -506,6 +506,12 @@ footer small{
   }
   footer address{
     padding: 0px 40px;
+  }
+  footer hr{
+    max-width: 100%;
+  }
+  .col-lg-5.ps-5{
+    padding-left: 15px !important;
   }
 }
 @media only screen and (min-width: 768px) { /* PC */
