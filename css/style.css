@@ -1,0 +1,392 @@
+:root {
+  --primary-grey: #414042;  
+  --primary-sand: #E7E3DE;  
+  --secondary-brown: #874426;  
+  --secondary-blue: #B7CBD0;  
+  --secondary-green: #3D4E3E;  
+  --secondary-grey: #949598; 
+  --text-black: #181D27; 
+}   
+a{
+  text-decoration: none !important; 
+}
+a:hover{
+  text-decoration: none;
+} 
+body{
+  font-family: "Gotu", sans-serif;
+  font-style: normal; 
+  overflow-x: hidden !important;
+}    
+.sec1{
+  background-image: url(../images/bg1.png);
+  background-position: bottom center !important;
+  background-size: 100% auto !important;
+  background-repeat: no-repeat !important;
+  min-height: 100vh;
+  padding-top: 40px;
+  position: relative;
+}
+.sec1 .logo{ 
+  margin-right: auto;
+  display: block;
+  height: 67px;
+}
+.sec1 .nav-menu{
+  margin-left: auto;
+  margin-top: 49px;
+  display: block;
+  height: 17px;
+  cursor: pointer;
+}
+.sec1 h1{
+  margin-top: 60px; 
+  font-size: 50px;
+  color: #fff;
+}
+.sec2{
+  background-image: url(../images/sec22.png) , url(../images/sec21.png) , url(../images/bg2.png);
+  background-position: top 55px center , top center , top 120px center !important;
+  background-size: 100% 90%  , 100% auto , 100% auto !important;
+  background-repeat: no-repeat , no-repeat , no-repeat !important;
+  min-height: 884px;
+  padding-top: 40px;
+  position: relative;
+}
+.sec2 .position-relative div{ 
+  text-align: center;
+  color: #fff;
+  align-items: center;
+  width: 100%;
+  top: 60vh;
+}
+.sec2 h1{
+  line-height: 65px;
+  font-size: 40px;
+}
+.sec2 h2{ 
+  font-size: 20px;
+}
+.sec3{
+  background-image:  url(../images/bg33.png);
+  background-position: top center !important;
+  background-size: 100% auto !important;
+  background-repeat: no-repeat !important;
+  min-height: 100vh; 
+  position: relative;
+  padding-top: 70px;
+}
+.vec3{
+  position: absolute;
+  width: 100%;
+  height: 24px;
+  background-image:  url(../images/vector3.png);
+  background-position: top center !important;
+  background-size: auto 24px !important;
+  background-repeat: no-repeat !important;
+  margin-top: -22px;
+}
+.sec3 h1{
+  color: #333;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sec3 .item{
+  position: relative;
+}
+.sec3 .item img{
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 454px;
+  margin: auto; 
+}
+.sec3 .item p{
+  left: 40px;
+  bottom: 5px;
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  font-family: "Chivo", sans-serif;
+}
+.carousel-control-next, .carousel-control-prev{
+  opacity: 1;
+} 
+.sec4{
+  background-color: #fff; 
+  min-height: 100vh; 
+  position: relative;
+  padding-top: 70px;
+} 
+.sec4 h1{
+  color: #333;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sec4 .item-card{
+  max-width: 816px;
+  width: 816px;
+  max-height: 456px;
+  height: 456px;
+  display: block;
+  margin: auto;
+  background-color: #AFC6C5;
+  position: relative;
+  padding: 50px;
+} 
+.sec4 .item-card::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 34px;
+  background-image:  url(../images/vector-line.png);
+  background-position: left bottom !important;
+  background-size: auto 34px !important;
+  background-repeat: no-repeat !important;
+  z-index: 2;
+} 
+.itemimg{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 456px;
+  object-fit: cover;
+  width: 330px;
+  z-index: 3;
+}
+.sec4 h2{
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 300; 
+}
+.sec4 p{ 
+  font-size: 20px;
+  font-family: "Chivo", sans-serif;
+  font-weight: 300; 
+}
+.sec4 .location{
+  position: absolute; 
+  bottom: 60px; 
+}
+.sec5{
+  background-color: var(--secondary-green); 
+  min-height: 100vh; 
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.sec5:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 70px;
+  width: 100%;
+  height: 35px;
+  background-image:  url(../images/line5.png);
+  background-position: left bottom !important;
+  background-size: 100% 35px !important;
+  background-repeat: no-repeat !important;
+  z-index: 2;
+}
+.sec5 h1{
+  color: #fff;
+  font-size: 40px; 
+  margin-bottom: 40px;
+}
+.sec5 p{
+  color: #fff;
+  font-size: 20px; 
+  font-family: "Chivo", sans-serif; 
+  margin-bottom: 30px;
+}
+.imgg{
+  position: relative;
+}
+.imgg .group{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: auto;
+  height: 57px;
+}
+.sec6{
+  background-image:  url(../images/bg6.png);
+  background-position: top center !important;
+  background-size: 100% auto !important;
+  background-repeat: no-repeat !important; 
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.sec6 .carousel-control-prev{
+  left: -10%;
+}
+.sec6 .carousel-control-next{
+  right: -10%;
+}
+footer{
+  min-height: 100vh;
+  background-image:  url(../images/bgfooter.png);
+  background-position: top left !important;
+  background-size: 100% auto !important;
+  background-repeat: no-repeat !important; 
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+footer h1{
+  color: #333;
+  font-size: 40px; 
+  margin-bottom: 20px;
+  text-align: center;
+}
+footer p{
+  color: #666;
+  font-size: 20px;  
+  font-family: "Chivo", sans-serif; 
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 0px;
+}
+footer hr{ 
+  width: 876px;
+  margin: 30px auto;
+  display: block;
+}
+footer address{ 
+  text-align: center;
+  color: #333;
+  font-size: 15px;  
+  font-family: "Chivo", sans-serif; 
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+footer address a{  
+  color: var(--secondary-brown);
+  font-size: 15px;  
+  font-family: "Chivo", sans-serif;  
+  text-decoration: underline !important;
+  font-weight: 500;
+  padding-left: 10px;
+}
+footer .contact a{  
+  transition: .33s all ease-out; 
+  color: #333;
+  font-size: 15px;  
+  font-family: "Chivo", sans-serif;   
+  font-weight: 300;
+}
+footer .contact > div{  
+  margin-bottom: 30px;
+}
+footer .contact > div img{  
+  margin-right: 10px;
+}
+footer .contact a:hover{   
+  color: #222;  
+  text-decoration: underline !important;
+}
+.map{
+  height: 476px  !important;
+  display: block;
+  margin: auto;
+  max-width: 876px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+footer small{
+  text-align: center;
+  display: block;
+  font-size: 12px;
+  color: #666;  
+  font-family: "Chivo", sans-serif; 
+  font-weight: 300;
+}
+
+
+
+
+
+
+/* 
+  transition: .33s all ease-out; 
+  font-family: "Chivo", sans-serif; 
+######################################################################################################
+###################################################################################################### 
+*/ 
+ 
+
+@media only screen and (max-width: 1024px) { /* MOBILE */
+  .mb-x{
+    display: none !important;
+  }    
+  .sec1{
+    background-image: url(../images/bg1.png);
+    background-position: top left 40% !important;
+    background-size: auto 100%  !important;
+    background-repeat: no-repeat !important;
+    min-height: 628px;
+    padding-top: 40px;
+    position: relative;
+  }
+  .sec1 .logo{  
+    height: 51px;
+  }
+  .sec1 h1{  
+    font-size: 30px;
+    margin-top: 30px;
+  } 
+  .sec1 .nav-menu{ 
+    height: 13px; 
+  } 
+  .sec2{
+    background-image: url(../images/sec22.png) , url(../images/sec21.png) , url(../images/bg2.png);
+    background-position: top 37px center , top center , top 75px center  !important;
+    background-size: 495px 253px , 500px 221px , auto 85vh  !important;
+    background-repeat: no-repeat , no-repeat , no-repeat !important; 
+    padding-top: 40px;
+    position: relative;
+  }
+  .sec2 .position-relative{ 
+    padding-right: 0px;
+  }
+  .sec2 .position-relative div{ 
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    width: 100%;
+    top: 20vh;
+  }
+  .sec2 h1{ 
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .sec2 p{ 
+    font-size: 20px; 
+    line-height: 35px;
+  } 
+  .sec3{
+    background-image:  url(../images/bg33.png);
+    background-position: top center !important;
+    background-size: auto 100%  !important;
+    background-repeat: no-repeat !important;
+    min-height: unset !important; 
+    position: relative;
+    padding-top: 70px;
+  }
+}
+@media only screen and (min-width: 768px) { /* PC */
+  .pc-x{
+    display: none !important;
+  }      
+}      
+
