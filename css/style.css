@@ -350,7 +350,7 @@ footer small{
   .sec2{
     background-image: url(../images/sec22.png) , url(../images/sec21.png) , url(../images/bg2.png);
     background-position: top 37px center , top center , top 75px center  !important;
-    background-size: 495px 253px , 500px 221px , auto 85vh  !important;
+    background-size: 495px 253px , 500px 221px , auto 87vh  !important;
     background-repeat: no-repeat , no-repeat , no-repeat !important; 
     padding-top: 40px;
     position: relative;
@@ -381,7 +381,131 @@ footer small{
     background-repeat: no-repeat !important;
     min-height: unset !important; 
     position: relative;
-    padding-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 90px;
+  }
+  .sec3 .carousel-control-prev{
+    top: unset;
+    bottom: -20%;
+    left: 25%;
+  }
+  .sec3 .carousel-control-next{
+    top: unset;
+    bottom: -20%;
+    right: 25%;
+  }
+  .vec3{
+    display: none;
+  }
+  .sec4 {
+    background-color: #fff;
+    min-height: unset;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 90px;
+  }
+  .sec4 h1{
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .sec4 .item-card{
+    min-height: 603px;
+    height: 100%;
+    max-height: 603px;
+    padding: 20px;
+  }
+  .sec4 h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .sec4 .location {
+    position: relative !important;
+    margin-top: 130px;
+    margin-bottom: 30px;
+  }
+  .sec4 .itemimg {
+    right: 0;
+    top: unset;
+    left: 0;
+    bottom: 0;
+    height: 210px; 
+    object-fit: cover;
+    object-position: top center;
+    width: 100% !important;
+    z-index: 3;
+  }
+  .sec4 .carousel-control-prev{
+    top: unset;
+    bottom: -14%;
+    left: 25%;
+  }
+  .sec4 .carousel-control-next{
+    top: unset;
+    bottom: -14%;
+    right: 25%;
+  }
+  .sec4 .item-card::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 210px;
+    height: 30px;
+    background-image:  url(../images/vector-linem.png);
+    background-position: left bottom !important;
+    background-size: auto 30px !important;
+    background-repeat: no-repeat !important;
+    z-index: 2;
+  } 
+  .sec5{
+    padding-bottom: 80px;
+  } 
+  .sec5 h1{
+    font-size: 28px;
+    text-align: center;
+    line-height: 45px;
+  } 
+  .sec5:after{ 
+    height: 20px;
+    background-image:  url(../images/line5m.png); 
+    background-size: 100% 20px !important; 
+  }
+  .sec6{
+    min-height: 255px;  
+    background-size: auto 100%  !important;
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  .sec6 .carousel-control-prev{
+    top: unset;
+    bottom: -30%;
+    left: 25%;
+  }
+  .sec6 .carousel-control-next{
+    top: unset;
+    bottom: -30%;
+    right: 25%;
+  } 
+  footer{
+    min-height: 100vh;
+    background-image:  url(../images/bgfooter.png);
+    background-position: top left !important;
+    background-size: auto 100%  !important;
+    background-repeat: no-repeat !important; 
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  footer h1{
+    font-size: 28px;
+    text-align: center;
+    line-height: 45px;
+  } 
+  .map{
+    height: 333px  !important; 
+  }
+  footer address{
+    padding: 0px 40px;
   }
 }
 @media only screen and (min-width: 768px) { /* PC */
@@ -390,3 +514,11 @@ footer small{
   }      
 }      
 
+.sec3 .carousel-item > .row {
+  display: flex;
+}
+.sec3 .carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
