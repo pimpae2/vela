@@ -110,6 +110,12 @@ body{
   position: absolute;
   font-family: "Chivo", sans-serif;
 }
+.sec3 .carousel-control-prev{
+  left: -10%;
+}
+.sec3 .carousel-control-next{
+  right: -10%;
+}
 .carousel-control-next, .carousel-control-prev{
   opacity: 1;
 } 
@@ -232,8 +238,7 @@ body{
 .sec6 .carousel-control-next{
   right: -10%;
 }
-footer{
-  min-height: 100vh;
+footer{ 
   background-image:  url(../images/bgfooter.png);
   background-position: top left !important;
   background-size: 100% auto !important;
