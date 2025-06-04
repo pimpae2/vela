@@ -19,30 +19,43 @@ body{
   overflow-x: hidden !important;
 }    
 .sec1{
-  background-image: url(../images/bg1.png);
-  background-position: bottom center !important;
+  background-color: #E7E3DE;
+  background-image: url(../images/image-01.png);
+  background-position: top 90px center !important;
   background-size: 100% auto !important;
   background-repeat: no-repeat !important;
   min-height: 100vh;
-  padding-top: 40px;
   position: relative;
 }
 .sec1 .logo{ 
   margin-right: auto;
   display: block;
   height: 67px;
+  margin-top: 40px;
 }
 .sec1 .nav-menu{
   margin-left: auto;
   margin-top: 49px;
   display: block;
-  height: 17px;
+  height: 37px;
+  cursor: pointer;
+  margin-top: 40px;
   cursor: pointer;
 }
 .sec1 h1{
   margin-top: 60px; 
   font-size: 50px;
   color: #fff;
+}
+.sec1 h6{
+  margin-top: 10px; 
+  font-size: 16px;
+  color: #212529;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 100%;
+  text-align: center;
 }
 .sec2{
   background-image: url(../images/sec22.png) , url(../images/sec21.png) , url(../images/bg2.png);
@@ -315,10 +328,88 @@ footer small{
   font-family: "Chivo", sans-serif; 
   font-weight: 300;
 }
+.logint .modal-body{
+  background-color: #E7E3DE;
+  position: relative;
+}
+.logint .modal-body .close{ 
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: auto; 
+  margin-top: 30px;
+}
+.logint .modal-body .logo{  
+  height: 100px;
+  display: block;
+  margin: auto; 
+}
+.modal-footer{
+  background-color: #E7E3DE;
+  border-top: 1px solid black;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+.modal-footer a{ 
+  color: black;
+}
+.modal-footer a:hover{ 
+  text-decoration: underline !important;
+}
+.main-log{
+  margin-top: 60px;
+  height: calc(100vh - 350px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-log .menu{
+  list-style: none;
+  padding-left: 0px;
+}
+.main-log .menu li{ 
+  margin-bottom: 20px;
+} 
+.main-log .menu li a{ 
+  text-align: center;
+  font-size: 32px; 
+  color: black;
+  font-weight: 500;
+}
+.main-log .menu li:hover a{ 
+  text-decoration: underline !important;
+} 
+.main-log .ss:after{
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 300px;
+  background-color: black;
+  left: 0;
+  top: -50px;
+}
+.main-log .ss{
+  position: relative;
+  list-style: none;
+  padding-left: 100px;
+}
+.main-log .ss li{ 
+  margin-bottom: 60px;
+} 
+.main-log .ss li a{  
+  font-size: 24px; 
+  color: black;
+  font-weight: 500;
+}
+.main-log .ss li a:hover{ 
+  text-decoration: underline !important;
+}
+.main-log .ss li img{  
+  margin-right: 15px;
+}
 
-
-
-
+ 
 
 
 /* 
@@ -334,23 +425,27 @@ footer small{
     display: none !important;
   }    
   .sec1{
-    background-image: url(../images/bg1.png);
-    background-position: top left 40% !important;
+    background-color: #E7E3DE;
+    background-image: url(../images/banner-home-sm.svg); 
+    background-position: top 90px center !important;
     background-size: auto 100%  !important;
     background-repeat: no-repeat !important;
-    min-height: 628px;
-    padding-top: 40px;
+    min-height: 628px; 
     position: relative;
   }
+  .sec1 h6{
+    display: none;
+  }
   .sec1 .logo{  
-    height: 51px;
+    height: 45px; 
+    margin-top: 25px;
   }
   .sec1 h1{  
     font-size: 30px;
     margin-top: 30px;
   } 
   .sec1 .nav-menu{ 
-    height: 13px; 
+    height: 22px; 
   } 
   .sec2{
     background-image: url(../images/sec22.png) , url(../images/sec21.png) , url(../images/bg2.png);
@@ -517,6 +612,50 @@ footer small{
   }
   .col-lg-5.ps-5{
     padding-left: 15px !important;
+  }
+  .od2{
+    order: 3 !important;
+  }
+  .logint .modal-body .logo{
+    margin: unset !important;
+    height: 50px;
+  }
+  .logint .modal-body .close{
+    height: 34px !important;
+    margin: unset !important;
+    margin-top: 15px !important;
+    margin-left: auto !important;
+  }
+  .logint .modal-body h4{
+    font-size: 18px;
+  }
+  .main-log .menu li a { 
+    font-size: 24px; 
+  }
+  .main-log .ss:after {
+    content: "";
+    position: absolute;
+    width: 80% !important;
+    height: 0.5pt !important;
+    background-color: #404040;
+    left: auto;
+    right: auto;
+    top: 0;
+  }
+  .main-log .ss {
+    padding-top: 40px;
+    position: relative;
+    list-style: none;
+    padding-left: 40px;
+  }
+  .main-log .ss li{
+    margin-bottom: 30px;
+  }
+  .main-log .ss a{
+    font-size: 18px !important;
+  }
+  .modal-footer{
+    font-size: 14px !important;
   }
 }
 @media only screen and (min-width: 768px) { /* PC */
