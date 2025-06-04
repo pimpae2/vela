@@ -338,6 +338,7 @@ footer small{
   display: block;
   margin: auto; 
   margin-top: 30px;
+  cursor: pointer;
 }
 .logint .modal-body .logo{  
   height: 100px;
